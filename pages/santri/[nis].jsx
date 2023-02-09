@@ -58,8 +58,8 @@ const DetailSantri = ({ nis, data }) => {
     return (
         <>
             <Navigasi/>
-            <div class="jumbotron mt-5 container">
-                <h1 class="display-6">{fields.nis} - {fields.nama}</h1>
+            <div className="jumbotron mt-5 container">
+                <h1 className="display-6">{fields.nis} - {fields.nama}</h1>
                 <div className="my-4 row">
                         <label htmlFor="nis" className="col-sm-3 col-form-label">Nomor Induk Santri</label>
                         <div className="col-sm-9">
